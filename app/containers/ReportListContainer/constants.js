@@ -1,0 +1,3 @@
+export const LOAD_REPORTS = 'Reports/LOAD_REPORTS';
+export const LOAD_REPORTS_SUCCESS = 'Reports/LOAD_REPORTS_SUCCESS';
+export const LOAD_REPORTS_ERROR = 'Reports/LOAD_REPORTS_ERROR';

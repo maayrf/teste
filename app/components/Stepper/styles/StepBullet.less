@@ -1,0 +1,20 @@
+.StepBullet {
+  @bullet-size: 30px;
+  @active-color: #2e3d45;
+  line-height: @bullet-size - 2;
+  padding: 0;
+  color: @active-color;
+  width: @bullet-size;
+  height: @bullet-size;
+  display: inline-block;
+  margin-right: 0.5rem;
+  text-align: center;
+  border-radius: 1000px;
+  border: 2px solid @active-color;
+  font-weight: bold;
+
+  &.anticon {
+    border: none;
+    font-size: 26px;
+  }
+}

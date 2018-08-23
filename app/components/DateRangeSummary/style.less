@@ -1,0 +1,56 @@
+@import "../../ant-theme-vars";
+
+.dateRangeSummary{
+
+  .ant-radio-group-large .ant-radio-button-wrapper{
+    height: auto;
+    line-height: normal;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 0px;
+    margin-top: -1px;
+    width: 100%;
+    max-width: 900px;
+    &:first-child{
+      border-radius: 4px 4px 0 0;
+      margin: 0;
+    }
+    &:last-child{
+      border-radius: 0 0 4px 4px;
+      margin: 0;
+    }
+    h3,h4{
+      transition: all 0.2s ease;
+    }
+    &.ant-radio-button-wrapper-checked{
+      h3,h4{
+        color: @primary-color;
+      }
+    }
+  }
+
+  .range-summary-option {
+    &:hover {
+      h3, h4 {
+        color: @primary-color;
+      }
+    }
+  }
+  .ant-form-item-label{
+    white-space: initial;
+    line-height: 1.5;
+    padding-bottom: 5px;
+    text-align: left;
+  }
+
+}
+.has-error{
+  .dateRangeSummary{
+    .ant-input, .ant-input-number{
+      border-color: #d9d9d9;
+    }
+    .ant-calendar-picker-icon:after{
+      color: #d9d9d9;
+    }
+  }
+}

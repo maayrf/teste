@@ -1,0 +1,51 @@
+@hour-color: #ccc;
+@selected-hour-color: #59aa55;
+@selected-hour-border-color: #59d255;
+
+// Styling to highlight division hours
+.border-highlight(@border-side) {
+  // Unselected hour
+  .ts-day-hour-checkmark {
+    border-@{border-side}: 4px solid darken(@hour-color, 7%);
+  }
+
+  // Selected hour
+  input:checked ~ .ts-day-hour-checkmark {
+    border-@{border-side}: 4px solid lighten(@selected-hour-border-color, 20%);
+  }
+}
+
+.ts-day-hour {
+  position: relative;
+  display: flex;
+  flex: 1;
+  cursor: pointer;
+
+  &:hover .ts-day-hour-checkmark {
+    background-color: @hour-color;
+  }
+
+  // Hightlight each 2 hours
+  &:nth-child(4n + 2) {
+    .border-highlight(left);
+  }
+  &:last-child {
+    .border-highlight(right);
+  }
+
+  input {
+    position: absolute;
+    opacity: 0;
+    &:checked ~ .ts-day-hour-checkmark {
+      background-color: @selected-hour-color;
+      border: 1px @selected-hour-border-color solid;
+    }
+  }
+}
+
+.ts-day-hour-checkmark {
+  height: 40px;
+  width: 100%;
+  background-color: #e4e6e7;
+  border: 1px #f4f5f5 solid;
+}

@@ -1,0 +1,3 @@
+export const LOAD_METER_TREE = 'MeterTree/LOAD_METER_TREE';
+export const LOAD_METER_TREE_SUCCESS = 'MeterTree/LOAD_METER_TREE_SUCCESS';
+export const LOAD_METER_TREE_ERROR = 'MeterTree/LOAD_METER_TREE_ERROR';

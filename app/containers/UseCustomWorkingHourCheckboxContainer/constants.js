@@ -1,0 +1,6 @@
+export const EDIT_EGG_CUSTOM_WORKING_HOUR =
+  'UseCustomWorkingHourCheckboxContainer/EDIT_EGG_CUSTOM_WORKING_HOUR';
+export const EDIT_EGG_CUSTOM_WORKING_HOUR_ERROR =
+  'UseCustomWorkingHourCheckboxContainer/EDIT_EGG_CUSTOM_WORKING_HOUR_ERROR';
+export const EDIT_EGG_CUSTOM_WORKING_HOUR_SUCCESS =
+  'UseCustomWorkingHourCheckboxContainer/EDIT_EGG_CUSTOM_WORKING_HOUR_SUCCESS';

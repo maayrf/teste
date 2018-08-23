@@ -1,0 +1,16 @@
+export const LOAD_PENDING_METERS = 'MeterPage/LOAD_PENDING_METERS';
+export const LOAD_PENDING_METERS_SUCCESS =
+  'MeterPage/LOAD_PENDING_METERS_SUCCESS';
+export const LOAD_PENDING_METERS_ERROR = 'MeterPage/LOAD_PENDING_METERS_ERROR';
+
+export const REMOVE_METER = 'MeterPage/REMOVE_METER';
+export const REMOVE_METER_SUCCESS = 'MeterPage/REMOVE_METER_SUCCESS';
+export const REMOVE_METER_ERROR = 'MeterPage/REMOVE_METER_ERROR';
+
+export const CREATE_METER = 'MeterPage/CREATE_METER';
+export const CREATE_METER_ERROR = 'MeterPage/CREATE_METER_ERROR';
+export const CREATE_METER_SUCCESS = 'MeterPage/CREATE_METER_SUCCESS';
+
+export const EDIT_METER = 'MeterPage/EDIT_METER';
+export const EDIT_METER_ERROR = 'MeterPage/EDIT_METER_ERROR';
+export const EDIT_METER_SUCCESS = 'MeterPage/EDIT_METER_SUCCESS';

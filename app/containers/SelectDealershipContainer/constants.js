@@ -1,0 +1,6 @@
+export const LOAD_SELECT_DEALERSHIPS =
+  'SelectDealershipContainer/LOAD_SELECT_DEALERSHIPS';
+export const LOAD_SELECT_DEALERSHIPS_SUCCESS =
+  'SelectDealershipContainer/LOAD_SELECT_DEALERSHIPS_SUCCESS';
+export const LOAD_SELECT_DEALERSHIPS_ERROR =
+  'SelectDealershipContainer/LOAD_SELECT_DEALERSHIPS_ERROR';

@@ -1,0 +1,6 @@
+export const REMOVE_ALERT_CONFIGURATION =
+  'RemoveAlertConfigurationButtonContainer/REMOVE_ALERT_CONFIGURATION';
+export const REMOVE_ALERT_CONFIGURATION_ERROR =
+  'RemoveAlertConfigurationConfirm/REMOVE_ALERT_CONFIGURATION_ERROR';
+export const REMOVE_ALERT_CONFIGURATION_SUCCESS =
+  'RemoveAlertConfigurationConfirm/REMOVE_ALERT_CONFIGURATION_SUCCESS';

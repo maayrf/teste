@@ -1,0 +1,16 @@
+.ts-week-hours {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  min-width: 500px;
+}
+
+.ts-week-hours h4 {
+  width: 100px;
+  flex: 100px 0 0;
+  flex-shrink: 0;
+  text-align: right;
+  padding-right: 1rem;
+  margin: 0;
+  text-transform: uppercase;
+}

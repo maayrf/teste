@@ -1,0 +1,62 @@
+.node-branch, .node-egg, .node-grouping, .node-pendingMeters, .node-activeMeters{
+  .rstcustom__rowLabel{
+    display: flex;
+    align-items: center;
+    &::before{
+      font-family: anticon, serif !important;
+      display: block;
+      margin-right: 10px;
+    }
+  }
+}
+.node-pendingMeters, .node-activeMeters{
+
+  .rstcustom__rowLabel span{
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+.node-pendingMeters .rstcustom__rowLabel::before{
+  content: "\E641";
+}
+.node-activeMeters .rstcustom__rowLabel::before{
+  content: "\E631";
+}
+.node-branch .rstcustom__rowLabel::before{
+  content: "\E65E";
+}
+.node-grouping .rstcustom__rowLabel::before{
+  content: "\E662";
+}
+.node-egg .rstcustom__rowLabel::before{
+  content: "\E69A";
+}
+.rstcustom__collapseButton::after,
+.rstcustom__expandButton::after{
+  border-width: 4px;
+}
+
+
+.node-branch, .node-egg, .node-grouping, .node-pendingMeters, .node-activeMeters{
+  &.selected {
+    font-weight: bold;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #36c2f6a8;
+  }
+}
+
+.rstcustom__row{
+  .-show-on-hover{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    font-size: 11px;
+  }
+  &:hover{
+    .-show-on-hover{
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

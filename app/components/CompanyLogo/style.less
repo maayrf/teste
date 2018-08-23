@@ -1,0 +1,52 @@
+.logo {
+  object-fit: cover;
+  margin: 0;
+  display: block;
+  width: 100%;
+  height: 84px;
+}
+
+.company-logo {
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    .upload-button {
+      display: block;
+    }
+  }
+
+  .upload-button {
+    display: none;
+  }
+}
+
+.ant-layout .ant-layout-has-sider .ant-layout-sider .ant-layout-sider-collapsed .ant-layout-sider-children .company-logo .upload-button .modal-button .ant-btn .ant-btn-primary span {
+  display: none;
+}
+
+.upload-button {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.upload-button .modal-button .ant-btn {
+  border-radius: 0px !important;
+  width: 100%;
+}
+
+.upload-button .modal-button .ant-btn .ant-btn-primary{
+  background-color: blue !important;
+  width: 90%;
+}
+
+.cubi-logo-side-bar-container {
+  position: relative;
+}
+
+.cubi-logo-side-bar-logo {
+  position: absolute;
+  width: 30%;
+}

@@ -1,0 +1,3 @@
+export const LOAD_METERS = 'Meter/LOAD_METERS';
+export const LOAD_METERS_SUCCESS = 'Meter/LOAD_METERS_SUCCESS';
+export const LOAD_METERS_ERROR = 'Meter/LOAD_METERS_ERROR';

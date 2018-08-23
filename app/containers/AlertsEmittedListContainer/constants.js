@@ -1,0 +1,12 @@
+export const LOAD_ALERTS_EMITTED =
+  'AlertsEmittedListContainer/LOAD_ALERTS_EMITTED';
+export const LOAD_ALERTS_EMITTED_SUCCESS =
+  'AlertsEmittedListContainer/LOAD_ALERTS_EMITTED_SUCCESS';
+export const LOAD_ALERTS_EMITTED_ERROR =
+  'AlertsEmittedListContainer/LOAD_ALERTS_EMITTED_ERROR';
+export const CHANGE_ALERTS_EMITTED_STATUS =
+  'AlertsEmittedListContainer/CHANGE_ALERTS_EMITTED_STATUS';
+export const CHANGE_ALERTS_EMITTED_STATUS_SUCCESS =
+  'AlertsEmittedListContainer/CHANGE_ALERTS_EMITTED_STATUS_SUCCESS';
+export const CHANGE_ALERTS_EMITTED_STATUS_ERROR =
+  'AlertsEmittedListContainer/CHANGE_ALERTS_EMITTED_STATUS_ERROR';

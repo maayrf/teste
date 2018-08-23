@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "kenji-server",
+      "author": "loucuras de amor",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Kenji"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "machines": [
+    {
+      "quantity": 1,
+      "name": "Maquina teste",
+      "model": "Modelo xyz",
+      "maker": "Marca Y",
+      "nominalVoltage": 10,
+      "ratedVoltage": 12,
+      "comments": "Lorem ipsum dolor...",
+      "id": 1
+    },
+    {
+      "quantity": 1,
+      "name": "ffgj",
+      "model": "jgfj",
+      "maker": "jhgj",
+      "nominalVoltage": 12,
+      "ratedVoltage": 12,
+      "comments": "1221kjljkl",
+      "id": 2
+    },
+    {
+      "quantity": 1,
+      "name": "dsfjkl",
+      "model": "jfkdsgj",
+      "maker": "jfdksfj",
+      "nominalVoltage": 12,
+      "ratedVoltage": 12,
+      "comments": "dsfsd",
+      "id": 3
+    }
+  ]
+}

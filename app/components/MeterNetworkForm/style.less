@@ -1,0 +1,20 @@
+@import "../../ant-theme-vars";
+
+.meter-network-form{
+  .input-certificate-ca {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+
+    &::before {
+      content: 'Selecionar Arquivo';
+      border: 1px solid @border-color;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    &::-webkit-file-upload-button {
+      visibility: hidden;
+      padding-left: 55px;
+    }
+  }
+}

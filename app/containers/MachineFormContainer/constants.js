@@ -1,0 +1,11 @@
+export const REMOVE_MACHINE = 'MachineForm/REMOVE_MACHINE';
+export const REMOVE_MACHINE_SUCCESS = 'MachineForm/REMOVE_MACHINE_SUCCESS';
+export const REMOVE_MACHINE_ERROR = 'MachineForm/REMOVE_MACHINE_ERROR';
+
+export const CREATE_MACHINE = 'MachineForm/CREATE_MACHINE';
+export const CREATE_MACHINE_ERROR = 'MachineForm/CREATE_MACHINE_ERROR';
+export const CREATE_MACHINE_SUCCESS = 'MachineForm/CREATE_MACHINE_SUCCESS';
+
+export const EDIT_MACHINE = 'MachineForm/EDIT_MACHINE';
+export const EDIT_MACHINE_ERROR = 'MachineForm/EDIT_MACHINE_ERROR';
+export const EDIT_MACHINE_SUCCESS = 'MachineForm/EDIT_MACHINE_SUCCESS';

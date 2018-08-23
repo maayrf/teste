@@ -1,0 +1,26 @@
+.ts-hours-labels-container {
+  height: 20px;
+  position: relative;
+  margin-left: calc(100px);
+  width: calc(100% - 100px);
+}
+
+@media screen and (min-width: 1200px) {
+  .ts-hours-labels-container span:nth-child(4n + 1) {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* count from  */
+  .ts-hours-labels-container span:nth-child(8n + 1) {
+    display: block;
+  }
+}
+
+.ts-hours-labels {
+  transform: translateX(-50%);
+  text-align: left;
+  display: none;
+  position: absolute;
+}
